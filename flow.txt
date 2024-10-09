@@ -1,0 +1,104 @@
+git config user.name
+git config user.email
+
+git config --global --unset user.name
+git config --global --unset user.email
+git config --global --unset credential.helper
+
+git config --global user.name "SK7CODES"
+git config --global user.email "kulabkarsahil07@gmail.com"
+
+create folder - open it in git bash
+mkdir project
+cd 
+cd..
+ls
+touch 
+
+git init
+git remote add origin https://github.com/SK7CODES/workshopdemo.git
+git add index.html
+git commit -m "our first commit"
+git push origin master
+
+git status
+git add
+git status
+git log
+show commit history on GitHub
+--------------------------------
+new folder - new repo - git init - git remote add origin - to check git remote -v
+open in vs add index.html files  
+open git bash terminal in vs code
+repo settings - add collab paarth mail - open paarth invite mail - accept invite -
+paarth clone repo - git clone  
+open cloned repo in vscode go live 
+make changes in file  
+git status
+git add . 
+git commit -m 
+git push origin main
+-
+sahil checks commits by paarth on GitHub web
+git pull origin main 
+sahil makes changes in file
+git status
+git add filename
+git commit -m ""
+git log for checking commit in local repo - check remote repo not pushed
+git push origin main
+check remote repo commits
+--------
+BRANCHING
+use board 
+sahil pushes in main , paarth pushes in main - error changes made already - force push 
+if paarth force push - sahil changes removed - sahil sed
+branching points to the directory you working on 
+branches for sahil and paarth
+
+new repo - new local folder - open in vs code 
+git init
+git git remote add origin by default main branch 
+git add
+git commit -m 
+status
+git push origin main
+git branch sahil
+git checkout sahil OR git checkout -b branchname
+vs code file changes , status , add , commit (if didn't merge no changes made , sahil op)
+git checkout main 
+git merge sahil (sahil merged with main) but not pushed
+git checkout sahil 
+git push origin sahil
+open GitHub check merges - able to merge - create a pull requests - merge pull requests - merged...
+__________________
+sahil create new repo - readme opensource - 
+diff - license file 
+add LICENSE.md choose MIT - review and submit - merge pull requests 
+about file - readme
+paarth account - clone sahil repo - 
+make changes in cloned repo , add. commit , push (permission denied)
+______________________
+FORK
+sahil new repo 
+paarth fork sahil repo - create fork 
+new local folder - clone forked repo in it - make changes
+add , commit , push main (pushed in paarths forked repo)
+pull request - create new request - 
+sahil opensource repo - check for pull requests -sahil merge pull requests - confirm 
+contri done 
+contributors added.
+  
+ 
+ 
+
+
+
+  
+
+
+
+
+
+
+
